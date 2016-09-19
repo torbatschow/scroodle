@@ -1,5 +1,5 @@
 # scroodle
-Scraper for Moodle resources
+##Scraper for Moodle Resources
 
 Goal of the project is to enable users to download all moodle resources they have access to in an orderly and automated way, including
 
