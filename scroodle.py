@@ -25,7 +25,7 @@ def extract_course_resources(coursepagesoup):
     return sessions
 
 
-#Find courses from nav bar, generate var courses with names and urls
+#Find courses from moodle dash board soup, generate var courses with names and urls
 def extract_courses(moodlesoup):
     return ([i.encode(formatter=None)[i.encode(formatter=None).find('title=\"') + 7:
     i.encode(formatter=None).find('\"><img alt=\"\" class=\"smallicon')]
